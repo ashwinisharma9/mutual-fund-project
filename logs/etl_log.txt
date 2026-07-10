@@ -1,0 +1,22 @@
+Fund Name: SBI Small Cap Fund - Direct Plan - Growth
+Fund House: SBI Mutual Fund
+
+First 5 Records:
+         date        nav
+0  09-07-2026  206.81410
+1  08-07-2026  204.40350
+2  07-07-2026  206.40250
+3  06-07-2026  207.39120
+4  03-07-2026  207.34610
+
+CSV saved successfully!
+Performance metrics generated successfully.
+==================================================
+Starting ETL Pipeline
+==================================================
+
+Running live_nav_fetch.py...
+
+Running compute_metrics.py...
+
+ETL Pipeline Completed Successfully!

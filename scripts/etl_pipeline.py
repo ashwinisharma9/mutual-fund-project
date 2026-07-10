@@ -1,21 +1,32 @@
-import pandas as pd
+from pathlib import Path
+import subprocess
+import sys
 
-file_path = "data/raw/hdfc_top100_nav.csv"
-
-df = pd.read_csv(file_path)
+# Project root directory
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 print("=" * 50)
-print("SHAPE")
-print(df.shape)
+print("Starting ETL Pipeline")
+print("=" * 50)
 
-print("\n" + "=" * 50)
-print("DATA TYPES")
-print(df.dtypes)
+# List of scripts to run
+scripts = [
+    "live_nav_fetch.py",
+    "compute_metrics.py"
+]
 
-print("\n" + "=" * 50)
-print("FIRST 5 ROWS")
-print(df.head())
+for script in scripts:
+    script_path = BASE_DIR / "scripts" / script
 
-print("\n" + "=" * 50)
-print("MISSING VALUES")
-print(df.isnull().sum())
+    print(f"\nRunning {script}...")
+
+    result = subprocess.run(
+        [sys.executable, str(script_path)],
+        cwd=BASE_DIR
+    )
+
+    if result.returncode != 0:
+        print(f"\nError while running {script}")
+        sys.exit(1)
+
+print("\nETL Pipeline Completed Successfully!")
