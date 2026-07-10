@@ -1,10 +1,10 @@
-# 📊 Bluestock Mutual Fund Analytics
+#  Bluestock Mutual Fund Analytics
 
 An end-to-end Data Analytics project that analyzes mutual fund performance, investor behavior, SIP trends, and benchmark indices using **Python, SQL, SQLite, and Power BI**. The project also includes an automated ETL pipeline to fetch the latest NAV data, calculate performance metrics, and generate logs for scheduled execution.
 
 ---
 
-# 📌 Table of Contents
+#  Table of Contents
 
 - Project Overview
 - Objectives
@@ -23,7 +23,7 @@ An end-to-end Data Analytics project that analyzes mutual fund performance, inve
 
 ---
 
-# 📖 Project Overview
+#  Project Overview
 
 The **Bluestock Mutual Fund Analytics** project provides a complete analytical solution for understanding mutual fund performance and investor trends.
 
@@ -43,7 +43,7 @@ The dashboard enables users to explore fund performance, benchmark comparisons, 
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 - Analyze mutual fund performance.
 - Compare funds with benchmark indices.
@@ -55,7 +55,7 @@ The dashboard enables users to explore fund performance, benchmark comparisons, 
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -71,7 +71,7 @@ The dashboard enables users to explore fund performance, benchmark comparisons, 
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 Mutual Fund Project
@@ -123,7 +123,7 @@ Mutual Fund Project
 
 ---
 
-# 🔄 Project Workflow
+#  Project Workflow
 
 ```text
 Data Collection
@@ -147,7 +147,7 @@ Reports & Documentation
 
 ---
 
-# 📊 Analytics Performed
+#  Analytics Performed
 
 ## Data Cleaning
 
@@ -212,7 +212,7 @@ Execution logs are automatically stored inside the **logs** folder.
 
 ---
 
-# 📈 Power BI Dashboard
+#  Power BI Dashboard
 
 The dashboard contains five interactive pages.
 
@@ -249,7 +249,7 @@ The dashboard contains five interactive pages.
 
 ---
 
-# 🖼 Dashboard Preview
+#  Dashboard Preview
 
 ## Industry Overview
 
@@ -273,7 +273,7 @@ The dashboard contains five interactive pages.
 
 ---
 
-# 💡 Key Insights
+#  Key Insights
 
 - Mutual fund SIP investments have shown consistent long-term growth.
 - Large-cap funds generally demonstrated stable long-term performance.
@@ -283,7 +283,7 @@ The dashboard contains five interactive pages.
 
 ---
 
-# 🚀 Future Enhancements
+#  Future Enhancements
 
 - Live API Integration
 - Power BI Service Deployment
@@ -294,7 +294,7 @@ The dashboard contains five interactive pages.
 
 ---
 
-# ▶ Installation
+#  Installation
 
 ## Clone the Repository
 
@@ -324,7 +324,7 @@ dashboard/bluestock_m_f_dashboard.pbix
 
 ---
 
-# 📁 Project Outputs
+#  Project Outputs
 
 - Cleaned Dataset
 - SQLite Database
@@ -338,9 +338,9 @@ dashboard/bluestock_m_f_dashboard.pbix
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
-**Harmain Shahid**
+**Ashwini Sharma**
 
 **Data Analytics Trainee**
 
@@ -357,7 +357,7 @@ dashboard/bluestock_m_f_dashboard.pbix
 
 ---
 
-# ⭐ Acknowledgement
+#  Acknowledgement
 
 This project was developed as part of a Data Analytics training program to demonstrate practical skills in data collection, data cleaning, exploratory data analysis, financial performance analytics, dashboard development, ETL automation, and business intelligence using mutual fund data.
 
